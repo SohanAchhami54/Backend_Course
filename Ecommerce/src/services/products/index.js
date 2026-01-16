@@ -1,5 +1,4 @@
 import { Product } from "../../model/products.js"
-import { httpError } from "../../utils/httpError.js"
 
 const createProduct=async(productData)=>{
     try{
